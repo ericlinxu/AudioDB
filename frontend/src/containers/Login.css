@@ -1,0 +1,62 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input {
+    height: 3vh;
+    justify-items: center;
+    padding: 1rem;
+    border:2px solid;
+    border-color: bisque;
+    border-radius: 0.5;
+    background:none;
+}
+
+input:hover {
+    border-color: #d1e4c4;
+}
+
+input:focus {
+    border-color: #d1b7c4;
+}
+
+label[for=userInput]{
+    position: absolute;
+    top: 23.7rem;
+    left: 43rem;
+    font-size:0.7rem;
+    color:gray;
+    transition:top 200ms ease-in, lef 200ms ease-in, font-size 200ms ease-in;
+    background-color: white;
+    padding: 0.2rem;
+}
+
+label[for=passInput]{
+    position: absolute;
+    top: 23.7rem;
+    left: 53.9rem;
+    font-size:0.7rem;
+    color:gray;
+    transition:top 200ms ease-in, lef 200ms ease-in, font-size 200ms ease-in;
+    background-color: white;
+    padding: 0.2rem;
+}
+
+/* input:focus ~ label[for=userInput] {
+    top: 23.9rem;
+    left: 43rem;
+    font-size:0.7rem;
+}
+
+input:not(:placeholder-shown).input:not(:focus) ~ label[for=userInput] {
+    top: 23.9rem;
+    left: 43rem;
+    font-size:0.7rem;
+} */
+
+button {
+    height: 3vh;
+}

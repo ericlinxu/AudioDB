@@ -1,0 +1,39 @@
+.Home {
+    color: blue;
+}
+.hi {
+    color: pink;
+}
+
+table{ 
+    table-layout: fixed;
+    width: 80%;
+    margin-left: 10%;
+    border-spacing: 1px;
+}
+
+th {
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: antiquewhite;
+}
+
+.center {
+    /* display: flex;
+    justify-content: center; */
+    table-layout: fixed;
+    width: 80%;
+    margin-left: 28%;
+    border-spacing: 1px;
+  }

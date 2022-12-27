@@ -1,0 +1,21 @@
+label[for=yourInput]{
+    position: absolute;
+    top: 20.8rem;
+    left: 53.4rem;
+    font-size:0.7rem;
+    color:gray;
+    transition:top 200ms ease-in, lef 200ms ease-in, font-size 200ms ease-in;
+    background-color: white;
+    padding: 0.2rem;
+}
+
+label[for=compareInput]{
+    position: absolute;
+    top: 20.8rem;
+    left: 42.4rem;
+    font-size:0.7rem;
+    color:gray;
+    transition:top 200ms ease-in, lef 200ms ease-in, font-size 200ms ease-in;
+    background-color: white;
+    padding: 0.2rem;
+}

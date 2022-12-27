@@ -1,0 +1,10 @@
+label[for=pass2Input]{
+    position: absolute;
+    top: 22.1rem;
+    left: 48rem;
+    font-size:0.7rem;
+    color:gray;
+    transition:top 200ms ease-in, lef 200ms ease-in, font-size 200ms ease-in;
+    background-color: white;
+    padding: 0.2rem;
+}

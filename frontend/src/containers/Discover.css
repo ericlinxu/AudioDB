@@ -1,0 +1,54 @@
+label[for=songInput]{
+    position: absolute;
+    top: 20.9rem;
+    left: 26.1rem;
+    font-size:0.7rem;
+    color:gray;
+    transition:top 200ms ease-in, lef 200ms ease-in, font-size 200ms ease-in;
+    background-color: white;
+    padding: 0.2rem;
+}
+
+label[for=genreInput]{
+    position: absolute;
+    top: 20.9rem;
+    left: 37.1rem;
+    font-size:0.7rem;
+    color:gray;
+    transition:top 200ms ease-in, lef 200ms ease-in, font-size 200ms ease-in;
+    background-color: white;
+    padding: 0.2rem;
+}
+
+label[for=weatherInput]{
+    position: absolute;
+    top: 20.9rem;
+    left: 48rem;
+    font-size:0.7rem;
+    color:gray;
+    transition:top 200ms ease-in, lef 200ms ease-in, font-size 200ms ease-in;
+    background-color: white;
+    padding: 0.2rem;
+}
+
+label[for=moodInput]{
+    position: absolute;
+    top: 20.9rem;
+    left: 59rem;
+    font-size:0.7rem;
+    color:gray;
+    transition:top 200ms ease-in, lef 200ms ease-in, font-size 200ms ease-in;
+    background-color: white;
+    padding: 0.2rem;
+}
+
+label[for=userID]{
+    position: absolute;
+    top: 20.9rem;
+    left: 69.9rem;
+    font-size:0.7rem;
+    color:gray;
+    transition:top 200ms ease-in, lef 200ms ease-in, font-size 200ms ease-in;
+    background-color: white;
+    padding: 0.2rem;
+}
